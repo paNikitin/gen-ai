@@ -9,9 +9,13 @@ from pydantic import BaseModel, Field
 
 
 class RAGAnswer(BaseModel):
-    # TODO: добавьте поля
-    #   answer: str — что показать пользователю
-    #   quotes: list[str] — точные цитаты из ретрива (min_length=1, max_length=5)
-    #   confidence: float — уверенность модели (ge=0, le=1)
-    #   sources: list[str] — id-чанков, откуда взяли
-    pass
+    answer: str = Field(description="Итоговый ответ на вопрос")
+    quotes: list[str] = Field(
+        min_length=1, max_length=5, description="Точные цитаты из ретрива (1-5 )"
+    )
+    confidence: float = Field(
+        ge=0, le=1, description="Уверенность модели. Если < 0.5 — возвращаем 'не знаю'"
+    )
+    sources: list[str] = Field(
+        description="ID-чанков, откуда взяли, например: 'tbank_egor__0'"
+    )

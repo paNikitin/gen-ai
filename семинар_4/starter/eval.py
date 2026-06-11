@@ -13,7 +13,7 @@ import argparse
 import json
 from pathlib import Path
 
-from pipeline import collection, retrieve
+from pipeline import collection, hybrid_retrieve, retrieve
 
 GOLD_PATH = Path(__file__).parent / "data" / "gold.json"
 
@@ -33,16 +33,24 @@ def hit_rate(retrieved_ids: list[str], gold_sources: list[str]) -> float:
     return len(found) / len(gold_sources)
 
 
-def run(k: int = 5, verbose: bool = True) -> dict:
+def dense_only_retrieve(query: str, k: int = 5) -> dict:
+    return collection.query(query_texts=[query], n_results=k)
+
+
+def run(dense_only: bool = False, k: int = 5, verbose: bool = True) -> dict:
     gold = load_gold()
     total = 0.0
     results = []
+
+    fn = dense_only_retrieve if dense_only else hybrid_retrieve
+    label = "DENSE-ONLY" if dense_only else "HYBRID (DENSE + BM25 + RRF)"
+    print(f"\n==={label}===\n")
 
     for item in gold:
         q = item["question"]
         gold_sources = item["gold_sources"]
 
-        hits = retrieve(q, k=k)
+        hits = fn(q, k=k)
         retrieved_ids = hits["ids"][0]
         retrieved_sources = [rid.split("__")[0] for rid in retrieved_ids]
 
@@ -74,6 +82,7 @@ def run(k: int = 5, verbose: bool = True) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--dense-only", action="store_true")
     parser.add_argument("--k", type=int, default=5)
     parser.add_argument("--quiet", action="store_true")
     args = parser.parse_args()
