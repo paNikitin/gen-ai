@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "прямой",
+    "question": "В каком году была предложена идея RAG?",
+    "gold_sources": ["habr_931396_rag_obzor", "habr_862870_rag_langchain"]
+  },
+  {
+    "id": 2,
+    "type": "синоним",
+    "question": "Как называется нарезка документов на фрагменты для векторного поиска?",
+    "gold_sources": ["habr_1002152_rag_basics", "habr_931396_rag_obzor"]
+  },
+  {
+    "id": 3,
+    "type": "точный артикул",
+    "question": "Какую модель эмбеддингов используют в статье про ChromaDB и DeepSeek?",
+    "gold_sources": ["habr_897830_chromadb_deepseek"]
+  },
+  {
+    "id": 4,
+    "type": "multi-hop",
+    "question": "Чем Advanced RAG отличается от Naive RAG по статье «Базовый минимум»?",
+    "gold_sources": ["habr_1002152_rag_basics"]
+  },
+  {
+    "id": 5,
+    "type": "позитив",
+    "question": "Какие преимущества RAG перед дообучением модели?",
+    "gold_sources": ["habr_1002152_rag_basics", "habr_931396_rag_obzor"]
+  },
+  {
+    "id": 6,
+    "type": "перефраз",
+    "question": "Семантический поиск по архиву обращений в техподдержку с косинусным сходством",
+    "gold_sources": ["habr_945404_tickets_rag"]
+  },
+  {
+    "id": 7,
+    "type": "multi-hop",
+    "question": "Какие векторные базы данных упоминаются в обзоре и в туториале Amvera?",
+    "gold_sources": ["habr_961088_vector_db_obzor", "habr_897830_chromadb_deepseek"]
+  },
+  {
+    "id": 8,
+    "type": "прямой",
+    "question": "Что такое Chain-of-Thought в промптинге?",
+    "gold_sources": ["habr_988920_prompt_engineering", "habr_776478_llm_agenty"]
+  },
+  {
+    "id": 9,
+    "type": "синоним",
+    "question": "Почему LLM-агентам нужен внешний модуль памяти для свежих фактов?",
+    "gold_sources": ["habr_776478_llm_agenty", "habr_768844_llm_bez_haypa"]
+  },
+  {
+    "id": 10,
+    "type": "точный артикул",
+    "question": "Какую модель SentenceTransformer выбрали для русскоязычных тикетов?",
+    "gold_sources": ["habr_945404_tickets_rag"]
+  },
+  {
+    "id": 11,
+    "type": "multi-hop",
+    "question": "Почему в production-кейсе ушли с embedded ChromaDB на Qdrant?",
+    "gold_sources": ["habr_1000424_rag_production"]
+  },
+  {
+    "id": 12,
+    "type": "перефраз",
+    "question": "Реализация RAG на Python с LangChain и Weaviate",
+    "gold_sources": ["habr_862870_rag_langchain"]
+  }
+]

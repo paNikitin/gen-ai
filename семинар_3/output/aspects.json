@@ -1,0 +1,524 @@
+[
+  {
+    "author": "Анна_К",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Приложение постоянно вылетает при переводе по СБП",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Поддержка отвечает шаблонами через 2 дня",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "DmitryFin",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Переводы мгновенные",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "интерфейс понятный даже родителям",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Кэшбэк реально приходит",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "user_48291",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "Реклама кредиток на каждом экране! Захожу проверить баланс — снова баннер «одобрено 500000»",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Максим",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Дизайн устарел: серые кнопки, мелкий шрифт",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "ElenaM",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "positive",
+        "quote": "Поддержка в чате помогла за 10 минут разблокировать карту. Вежливо и по делу.",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "иногда приложение долго грузит главный экран на старом iPhone 11",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "Pavel_S",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Комиссия за перевод в другой банк выросла — раньше было бесплатно. За обслуживание карты тоже берут 99 рублей.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Olga_N",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Очень нравится новый редизайн — крупные иконки, приятные цвета",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Оплата по QR работает без сбоев",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "IvanPetrov",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Вчера не смог войти — Face ID не работает, пароль сбрасывается. Потерял доступ к счёту на выходных. Критичный баг!",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Katya_22",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Приложение стабильное, за полгода ни одного вылета",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "SergeyK",
+    "aspects": []
+  },
+  {
+    "author": "Maria_V",
+    "aspects": [
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Ждала ответ поддержки 4 дня по спорной операции. Чат в приложении показывает «оператор подключится через 15 минут» — и тишина.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "AlexDev",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "быстрый отклик UI, нет лагов на Pixel 8",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "babushka_L",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "слишком много кнопок",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "Nikita_Pro",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "После обновления приложение жрёт батарею — 40% за час в фоне",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Yulia_S",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Красивое приложение, приятная анимация",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "positive",
+        "quote": "перезвонили и всё исправили",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "author": "Roman_B",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Сканер QR часто не фокусируется, приходится перезапускать",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Tatiana_K",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "Бесплатные переводы, нулевая комиссия — за это и держусь",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Дизайн простой, но мне так даже лучше",
+        "confidence": 0.7
+      }
+    ]
+  },
+  {
+    "author": "Artem_777",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "pop-up при входе раздражает",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "Vera_P",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Деньги списали дважды за одну покупку",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "В поддержке сказали «ждите 30 дней рассмотрения»",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Konstantin",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Надёжное приложение, 2 года пользуюсь. Был один сбой в новогодние праздники — быстро починили.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Alina_M",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Шрифты мелкие, контраст слабый — людям с плохим зрением тяжело. Accessibility zero.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Viktor_S",
+    "aspects": []
+  },
+  {
+    "author": "Dasha_99",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Дизайн молодёжный, не как у старых банков",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Igor_F",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "negative",
+        "quote": "Платная подписка «Премиум» за 299 руб — за что? Те же функции что бесплатно, только значок. Обман.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Svetlana",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Стабильно работает на Samsung A54",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Переводы по номеру телефона — топ",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Иногда подтормаживает при плохом интернете",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "author": "Andrey_T",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Не могу привязать карту другого банка — ошибка «попробуйте позже» уже неделю",
+        "confidence": 0.95
+      },
+      {
+        "aspect": "support",
+        "sentiment": "negative",
+        "quote": "Техподдержка бессильна",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Polina_W",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Лучшая биометрия — Face ID срабатывает с первого раза",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Denis_K",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "Много рекламы страховок при оформлении карты",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Oksana_R",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Приложение зависло во время оплаты штрафа — деньги списались, статус «в обработке» 3 часа.",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Mikhail_B",
+    "aspects": [
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "Хороший баланс цены и качества. Комиссии низкие",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Интерфейс на русском без кривых переводов",
+        "confidence": 0.8
+      }
+    ]
+  },
+  {
+    "author": "Lena_Star",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Работает отлично!",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Timur_A",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Карта в Apple Pay добавилась только через 5 попыток",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "Nastya_L",
+    "aspects": [
+      {
+        "aspect": "ads",
+        "sentiment": "negative",
+        "quote": "push про акции каждый день — это spam",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Vlad_Invest",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "positive",
+        "quote": "Раздел инвестиций удобный, графики понятные",
+        "confidence": 0.9
+      },
+      {
+        "aspect": "support",
+        "sentiment": "positive",
+        "quote": "Поддержка по инвестициям компетентная",
+        "confidence": 0.85
+      }
+    ]
+  },
+  {
+    "author": "Galina_S",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "negative",
+        "quote": "Не могу оплатить ЖКХ — раздел «Платежи» пустой после обновления",
+        "confidence": 0.95
+      }
+    ]
+  },
+  {
+    "author": "Kirill_90",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Быстрое приложение, Apple Watch поддержка на уровне. Переводы с часов — кайф.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Marina_D",
+    "aspects": [
+      {
+        "aspect": "design",
+        "sentiment": "negative",
+        "quote": "Дизайн как в 2018 году. Конкуренты уже с glassmorphism, а тут серые списки.",
+        "confidence": 0.9
+      }
+    ]
+  },
+  {
+    "author": "Anton_P",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "positive",
+        "quote": "Переводы работают",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "design",
+        "sentiment": "neutral",
+        "quote": "дизайн терпимый",
+        "confidence": 0.7
+      },
+      {
+        "aspect": "ads",
+        "sentiment": "neutral",
+        "quote": "реклама есть но терпимо",
+        "confidence": 0.7
+      }
+    ]
+  },
+  {
+    "author": "Zoya_K",
+    "aspects": [
+      {
+        "aspect": "reliability",
+        "sentiment": "positive",
+        "quote": "Надёжно храню накопления",
+        "confidence": 0.85
+      },
+      {
+        "aspect": "price",
+        "sentiment": "positive",
+        "quote": "Процент на остаток виден сразу",
+        "confidence": 0.7
+      }
+    ]
+  },
+  {
+    "author": "Ruslan_M",
+    "aspects": [
+      {
+        "aspect": "performance",
+        "sentiment": "negative",
+        "quote": "Приложение вылетает при открытии истории за прошлый год. Баг воспроизводится стабильно.",
+        "confidence": 0.95
+      }
+    ]
+  }
+]
