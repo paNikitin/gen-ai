@@ -21,6 +21,7 @@ import argparse
 import datetime
 import json
 import sys
+import uuid
 from concurrent.futures import ThreadPoolExecutor
 from json.decoder import JSONDecodeError
 from pathlib import Path
@@ -32,7 +33,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from llm_client import get_model, make_client, make_raw_client
 from schemas import TOOL_SCHEMAS
-from tools import calculate, get_fx_rate, get_inflation, get_key_rate, get_unemployment
+from tools import (
+    calculate,
+    compare_periods,
+    get_fx_rate,
+    get_inflation,
+    get_key_rate,
+    get_unemployment,
+)
 
 # набор инструментов
 TOOLS_IMPL = {
@@ -41,7 +49,10 @@ TOOLS_IMPL = {
     "get_inflation": get_inflation,
     "get_unemployment": get_unemployment,
     "calculate": calculate,
+    "compare_periods": compare_periods,
 }
+
+TRACE_PATH = Path(__file__).resolve().parent / "trace.jsonl"
 
 
 # блок 7 — структурированный ответ
@@ -104,6 +115,7 @@ _BASE_RULES = """\
 - get_key_rate: ключевая ставка Цб на дату
 - get_inflation: ИПЦ (% г/г) на конец месяца
 - get_unemployment: безработица (% рабочей силы) на конец месяца
+- compare_periods: сравнить метрику (курс, ставка, ИПЦ, безработица) между двумя периодами
 - calculate: безопасный калькулятор для арифметики над полученными числами
 
 Алгоритм:
@@ -136,6 +148,18 @@ SYSTEM_PROMPT_PRO = (
 Формат даты — YYYY-MM-DD.
 """
 )
+
+
+def _append_trace(run_id: str, entry: dict) -> None:
+    row = {
+        "run_id": run_id,
+        "ts": datetime.datetime.now(datetime.timezone.utc)
+        .replace(microsecond=0)
+        .isoformat(),
+        **entry,
+    }
+    with TRACE_PATH.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
 def _exec_one(tc, cache: Optional[dict] = None) -> tuple[Any, dict, dict]:
@@ -263,6 +287,7 @@ def run_agent(
     ]
     trace: list[dict[str, Any]] = []
     usage_log: list[dict[str, Any]] = []  # блок 10 — токены по шагам
+    run_id = str(uuid.uuid4())
 
     for step in range(1, max_iter + 1):
         resp = client.chat.completions.create(
@@ -295,6 +320,7 @@ def run_agent(
 
         if not msg.tool_calls:
             trace.append({"step": step, "final": msg.content})
+            _append_trace(run_id, {"step": step, "final": msg.content})
             return _finish(
                 {
                     "answer": msg.content,
@@ -331,6 +357,15 @@ def run_agent(
                 trace.append(
                     {"step": step, "call": tc.function.name, "args": args, "obs": obs}
                 )
+                _append_trace(
+                    run_id,
+                    {
+                        "step": step,
+                        "call": tc.function.name,
+                        "args": args,
+                        "obs": obs,
+                    },
+                )
                 if verbose:
                     print(
                         f"    {tc.function.name}({args}) -> {json.dumps(obs, ensure_ascii=False)[:140]}"
@@ -366,6 +401,7 @@ def run_agent(
             messages.append(
                 {"role": "tool", "tool_call_id": submit.id, "content": "ответ принят"}
             )
+            _append_trace(run_id, {"step": step, "final": ans.answer})
             return _finish(
                 {
                     "answer": ans.answer,
@@ -379,13 +415,15 @@ def run_agent(
                 verbose=verbose,
             )
 
+    err = f"исчерпан лимит шагов max_iter={max_iter}"
+    _append_trace(run_id, {"step": max_iter, "error": err, "trace_len": len(trace)})
     return _finish(
         {
             "answer": None,
             "structured": None,
             "trace": trace,
             "steps": max_iter,
-            "error": f"исчерпан лимит шагов max_iter={max_iter}",
+            "error": err,
         },
         usage_log,
         track_cost=track_cost,

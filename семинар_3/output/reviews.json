@@ -1,0 +1,654 @@
+[
+  {
+    "author": "Анна_К",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-02-10",
+    "text": "Приложение постоянно вылетает при переводе по СБП. Уже три раза деньги зависали на сутки. Поддержка отвечает шаблонами через 2 дня. На iPhone у жены таких проблем нет — видимо, Android-версия сыровата.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Приложение постоянно вылетает при переводе по СБП"
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Поддержка отвечает шаблонами через 2 дня"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "DmitryFin",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-03-01",
+    "text": "Лучший банк из тех, что пробовал. Переводы мгновенные, интерфейс понятный даже родителям. Кэшбэк реально приходит. Рекомендую.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Переводы мгновенные, интерфейс понятный даже родителям"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "user_48291",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-01-22",
+    "text": "Реклама кредиток на каждом экране! Захожу проверить баланс — снова баннер «одобрено 500000». Это уже навязчиво. В Тинькофф такого нет.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 4,
+        "quote": "Реклама кредиток на каждом экране! Захожу проверить баланс — снова баннер «одобрено 500000»"
+      }
+    ],
+    "competitor_mentions": [
+      "Тинькофф"
+    ]
+  },
+  {
+    "author": "Максим",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-28",
+    "text": "Дизайн устарел: серые кнопки, мелкий шрифт. Но функционал норм — платежи, вклады, всё на месте. Хотелось бы тёмную тему.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Дизайн устарел: серые кнопки, мелкий шрифт"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "ElenaM",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-03-05",
+    "text": "Поддержка в чате помогла за 10 минут разблокировать карту. Вежливо и по делу. Минус — иногда приложение долго грузит главный экран на старом iPhone 11.",
+    "issues": [
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Поддержка в чате помогла за 10 минут разблокировать карту"
+      },
+      {
+        "category": "performance",
+        "severity": 2,
+        "quote": "иногда приложение долго грузит главный экран на старом iPhone 11"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Pavel_S",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-01-15",
+    "text": "Комиссия за перевод в другой банк выросла — раньше было бесплатно. За обслуживание карты тоже берут 99 рублей. Дешевле в Сбере.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Комиссия за перевод в другой банк выросла — раньше было бесплатно. За обслуживание карты тоже берут 99 рублей"
+      }
+    ],
+    "competitor_mentions": [
+      "Сбер"
+    ]
+  },
+  {
+    "author": "Olga_N",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-02-20",
+    "text": "Очень нравится новый редизайн — крупные иконки, приятные цвета. Оплата по QR работает без сбоев. Молодцы!",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "новый редизайн — крупные иконки, приятные цвета"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "IvanPetrov",
+    "rating": 1,
+    "platform": "Google Play",
+    "review_date": "2026-03-12",
+    "text": "Вчера не смог войти — Face ID не работает, пароль сбрасывается. Потерял доступ к счёту на выходных. Критичный баг!",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Вчера не смог войти — Face ID не работает, пароль сбрасывается"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Katya_22",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-02-05",
+    "text": "Приложение стабильное, за полгода ни одного вылета. Кэшбэк по категориям удобный. Жаль, что нет виджета на главный экран.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Приложение стабильное, за полгода ни одного вылета"
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Жаль, что нет виджета на главный экран"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "SergeyK",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-01-30",
+    "text": "Push-уведомления о каждой мелочи — уже отключил половину. Но история операций подробная, поиск работает.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "Push-уведомления о каждой мелочи — уже отключил половину"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Maria_V",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-02-15",
+    "text": "Ждала ответ поддержки 4 дня по спорной операции. Чат в приложении показывает «оператор подключится через 15 минут» — и тишина.",
+    "issues": [
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Ждала ответ поддержки 4 дня по спорной операции"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "AlexDev",
+    "rating": 5,
+    "platform": "Google Play",
+    "review_date": "2026-03-08",
+    "text": "Как разработчик оцениваю: быстрый отклик UI, нет лагов на Pixel 8. API для автоплатежей удобный. Лучше чем ВТБ.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "быстрый отклик UI, нет лагов на Pixel 8"
+      }
+    ],
+    "competitor_mentions": [
+      "ВТБ"
+    ]
+  },
+  {
+    "author": "babushka_L",
+    "rating": 3,
+    "platform": "RuStore",
+    "review_date": "2026-02-01",
+    "text": "Внуку настроил — сама не разберусь, слишком много кнопок. Но переводы внуку делать могу, это главное.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "слишком много кнопок"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Nikita_Pro",
+    "rating": 1,
+    "platform": "Google Play",
+    "review_date": "2026-03-10",
+    "text": "После обновления приложение жрёт батарею — 40% за час в фоне. Пришлось удалить. Верните старую версию!",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "После обновления приложение жрёт батарею — 40% за час в фоне"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Yulia_S",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-02-25",
+    "text": "Красивое приложение, приятная анимация. Поддержка один раз не смогла решить вопрос с первого раза, но перезвонили и всё исправили.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "Красивое приложение, приятная анимация"
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Поддержка один раз не смогла решить вопрос с первого раза, но перезвонили и всё исправили"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Roman_B",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-01-08",
+    "text": "Сканер QR часто не фокусируется, приходится перезапускать. В магазине очередь за спиной — неловко.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Сканер QR часто не фокусируется, приходится перезапускать"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Tatiana_K",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-03-03",
+    "text": "Бесплатные переводы, нулевая комиссия — за это и держусь. Дизайн простой, но мне так даже лучше.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 5,
+        "quote": "Бесплатные переводы, нулевая комиссия — за это и держусь"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Artem_777",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-18",
+    "text": "Реклама инвестиций не такая навязчивая как раньше, но всё равно pop-up при входе раздражает. Функции норм.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "pop-up при входе раздражает"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Vera_P",
+    "rating": 1,
+    "platform": "App Store",
+    "review_date": "2026-03-14",
+    "text": "Деньги списали дважды за одну покупку. В поддержке сказали «ждите 30 дней рассмотрения». Это ненормально!",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Деньги списали дважды за одну покупку"
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "В поддержке сказали «ждите 30 дней рассмотрения»"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Konstantin",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-02-08",
+    "text": "Надёжное приложение, 2 года пользуюсь. Был один сбой в новогодние праздники — быстро починили. Доверяю.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Надёжное приложение, 2 года пользуюсь"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Alina_M",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-01-20",
+    "text": "Шрифты мелкие, контраст слабый — людям с плохим зрением тяжело. Accessibility zero.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "Шрифты мелкие, контраст слабый — людям с плохим зрением тяжело"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Viktor_S",
+    "rating": 3,
+    "platform": "RuStore",
+    "review_date": "2026-02-22",
+    "text": "Приложение в RuStore обновляется позже чем в Google Play — неделю сидел на старой версии с багом входа.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "Приложение в RuStore обновляется позже чем в Google Play — неделю сидел на старой версии с багом входа"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Dasha_99",
+    "rating": 5,
+    "platform": "Google Play",
+    "review_date": "2026-03-06",
+    "text": "Обожаю! Кэшбэк, стикеры, челленджи — весело и выгодно. Дизайн молодёжный, не как у старых банков.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "Дизайн молодёжный, не как у старых банков"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Igor_F",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-02-12",
+    "text": "Платная подписка «Премиум» за 299 руб — за что? Те же функции что бесплатно, только значок. Обман.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Платная подписка «Премиум» за 299 руб — за что? Те же функции что бесплатно, только значок"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Svetlana",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-01-28",
+    "text": "Стабильно работает на Samsung A54. Переводы по номеру телефона — топ. Иногда подтормаживает при плохом интернете.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Стабильно работает на Samsung A54"
+      },
+      {
+        "category": "performance",
+        "severity": 2,
+        "quote": "Иногда подтормаживает при плохом интернете"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Andrey_T",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-03-11",
+    "text": "Не могу привязать карту другого банка — ошибка «попробуйте позже» уже неделю. Техподдержка бессильна.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Не могу привязать карту другого банка — ошибка «попробуйте позже» уже неделю"
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Техподдержка бессильна"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Polina_W",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-02-28",
+    "text": "Лучшая биометрия — Face ID срабатывает с первого раза. Перешла из Сбера и не жалею.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Лучшая биометрия — Face ID срабатывает с первого раза"
+      }
+    ],
+    "competitor_mentions": [
+      "Сбер"
+    ]
+  },
+  {
+    "author": "Denis_K",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-03",
+    "text": "Много рекламы страховок при оформлении карты. Сам банк хороший, но маркeting давит.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "Много рекламы страховок при оформлении карты"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Oksana_R",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-03-09",
+    "text": "Приложение зависло во время оплаты штрафа — деньги списались, статус «в обработке» 3 часа. Стресс.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Приложение зависло во время оплаты штрафа — деньги списались, статус «в обработке» 3 часа"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Mikhail_B",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-01-25",
+    "text": "Хороший баланс цены и качества. Комиссии низкие, но не нулевые. Интерфейс на русском без кривых переводов.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 4,
+        "quote": "Комиссии низкие, но не нулевые"
+      },
+      {
+        "category": "design",
+        "severity": 4,
+        "quote": "Интерфейс на русском без кривых переводов"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Lena_Star",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-03-02",
+    "text": "В RuStore наконец появилось — удобно для тех кто без Google. Работает отлично!",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Работает отлично!"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Timur_A",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-02-17",
+    "text": "Карта в Apple Pay добавилась только через 5 попыток. Конкуренты делают за один раз.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "Карта в Apple Pay добавилась только через 5 попыток"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Nastya_L",
+    "rating": 3,
+    "platform": "App Store",
+    "review_date": "2026-02-07",
+    "text": "Нормальное приложение, но push про акции каждый день — это spam. Отключила уведомления полностью.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "push про акции каждый день — это spam"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Vlad_Invest",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-03-13",
+    "text": "Раздел инвестиций удобный, графики понятные. Хотелось бы больше аналитики. Поддержка по инвестициям компетентная.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 5,
+        "quote": "Раздел инвестиций удобный, графики понятные"
+      },
+      {
+        "category": "support",
+        "severity": 5,
+        "quote": "Поддержка по инвестициям компетентная"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Galina_S",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-01-18",
+    "text": "Не могу оплатить ЖКХ — раздел «Платежи» пустой после обновления. Критично для пенсионеров!",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Не могу оплатить ЖКХ — раздел «Платежи» пустой после обновления"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Kirill_90",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-02-14",
+    "text": "Быстрое приложение, Apple Watch поддержка на уровне. Переводы с часов — кайф.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "Быстрое приложение, Apple Watch поддержка на уровне"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Marina_D",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-03-07",
+    "text": "Дизайн как в 2018 году. Конкуренты уже с glassmorphism, а тут серые списки. Функционал спасает.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Дизайн как в 2018 году. Конкуренты уже с glassmorphism, а тут серые списки"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Anton_P",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-11",
+    "text": "Средне. Не лучший, не худший. Переводы работают, дизайн терпимый, реклама есть но терпимо.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Zoya_K",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-01-12",
+    "text": "Надёжно храню накопления. Процент на остаток виден сразу. Минус — нет семейного доступа к счёту.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Надёжно храню накопления"
+      },
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "нет семейного доступа к счёту"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Ruslan_M",
+    "rating": 2,
+    "platform": "RuStore",
+    "review_date": "2026-03-15",
+    "text": "Приложение вылетает при открытии истории за прошлый год. Баг воспроизводится стабильно. Жду фикса.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 4,
+        "quote": "Приложение вылетает при открытии истории за прошлый год"
+      }
+    ],
+    "competitor_mentions": []
+  }
+]

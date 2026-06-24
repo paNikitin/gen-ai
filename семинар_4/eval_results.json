@@ -1,0 +1,410 @@
+{
+  "naive": {
+    "mean": 0.7916666666666666,
+    "k": 5,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "score": 1.0,
+        "gold": [
+          "habr_931396_rag_obzor",
+          "habr_862870_rag_langchain"
+        ],
+        "retrieved_sources": [
+          "habr_1000424_rag_production",
+          "habr_931396_rag_obzor",
+          "habr_841428_chto_takoe_rag",
+          "habr_862870_rag_langchain",
+          "habr_931396_rag_obzor"
+        ],
+        "question": "В каком году была предложена идея RAG?"
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "score": 1.0,
+        "gold": [
+          "habr_1002152_rag_basics",
+          "habr_931396_rag_obzor"
+        ],
+        "retrieved_sources": [
+          "habr_897830_chromadb_deepseek",
+          "habr_931396_rag_obzor",
+          "habr_961088_vector_db_obzor",
+          "habr_1002152_rag_basics",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "question": "Как называется нарезка документов на фрагменты для векторного поиска?"
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "score": 1.0,
+        "gold": [
+          "habr_897830_chromadb_deepseek"
+        ],
+        "retrieved_sources": [
+          "habr_897830_chromadb_deepseek",
+          "habr_897830_chromadb_deepseek",
+          "habr_1000424_rag_production",
+          "habr_961088_vector_db_obzor",
+          "habr_768844_llm_bez_haypa"
+        ],
+        "question": "Какую модель эмбеддингов используют в статье про ChromaDB и DeepSeek?"
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_1002152_rag_basics"
+        ],
+        "retrieved_sources": [
+          "habr_1002152_rag_basics",
+          "habr_988920_prompt_engineering",
+          "habr_1002152_rag_basics",
+          "habr_841428_chto_takoe_rag",
+          "habr_988920_prompt_engineering"
+        ],
+        "question": "Чем Advanced RAG отличается от Naive RAG по статье «Базовый минимум»?"
+      },
+      {
+        "id": 5,
+        "type": "позитив",
+        "score": 0.5,
+        "gold": [
+          "habr_1002152_rag_basics",
+          "habr_931396_rag_obzor"
+        ],
+        "retrieved_sources": [
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_841428_chto_takoe_rag",
+          "habr_931396_rag_obzor",
+          "habr_841428_chto_takoe_rag"
+        ],
+        "question": "Какие преимущества RAG перед дообучением модели?"
+      },
+      {
+        "id": 6,
+        "type": "перефраз",
+        "score": 0.0,
+        "gold": [
+          "habr_945404_tickets_rag"
+        ],
+        "retrieved_sources": [
+          "habr_897830_chromadb_deepseek",
+          "habr_768844_llm_bez_haypa",
+          "habr_841428_chto_takoe_rag",
+          "habr_841428_chto_takoe_rag",
+          "habr_1002152_rag_basics"
+        ],
+        "question": "Семантический поиск по архиву обращений в техподдержку с косинусным сходством"
+      },
+      {
+        "id": 7,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_961088_vector_db_obzor",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "retrieved_sources": [
+          "habr_897830_chromadb_deepseek",
+          "habr_897830_chromadb_deepseek",
+          "habr_897830_chromadb_deepseek",
+          "habr_961088_vector_db_obzor",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "question": "Какие векторные базы данных упоминаются в обзоре и в туториале Amvera?"
+      },
+      {
+        "id": 8,
+        "type": "прямой",
+        "score": 0.5,
+        "gold": [
+          "habr_988920_prompt_engineering",
+          "habr_776478_llm_agenty"
+        ],
+        "retrieved_sources": [
+          "habr_988920_prompt_engineering",
+          "habr_988920_prompt_engineering",
+          "habr_931396_rag_obzor",
+          "habr_988920_prompt_engineering",
+          "habr_1000424_rag_production"
+        ],
+        "question": "Что такое Chain-of-Thought в промптинге?"
+      },
+      {
+        "id": 9,
+        "type": "синоним",
+        "score": 0.5,
+        "gold": [
+          "habr_776478_llm_agenty",
+          "habr_768844_llm_bez_haypa"
+        ],
+        "retrieved_sources": [
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_776478_llm_agenty",
+          "habr_931396_rag_obzor"
+        ],
+        "question": "Почему LLM-агентам нужен внешний модуль памяти для свежих фактов?"
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "score": 1.0,
+        "gold": [
+          "habr_945404_tickets_rag"
+        ],
+        "retrieved_sources": [
+          "habr_945404_tickets_rag",
+          "habr_841428_chto_takoe_rag",
+          "habr_768844_llm_bez_haypa",
+          "habr_1002152_rag_basics",
+          "habr_945404_tickets_rag"
+        ],
+        "question": "Какую модель SentenceTransformer выбрали для русскоязычных тикетов?"
+      },
+      {
+        "id": 11,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_1000424_rag_production"
+        ],
+        "retrieved_sources": [
+          "habr_961088_vector_db_obzor",
+          "habr_1000424_rag_production",
+          "habr_1000424_rag_production",
+          "habr_897830_chromadb_deepseek",
+          "habr_1000424_rag_production"
+        ],
+        "question": "Почему в production-кейсе ушли с embedded ChromaDB на Qdrant?"
+      },
+      {
+        "id": 12,
+        "type": "перефраз",
+        "score": 1.0,
+        "gold": [
+          "habr_862870_rag_langchain"
+        ],
+        "retrieved_sources": [
+          "habr_862870_rag_langchain",
+          "habr_862870_rag_langchain",
+          "habr_862870_rag_langchain",
+          "habr_931396_rag_obzor",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "question": "Реализация RAG на Python с LangChain и Weaviate"
+      }
+    ]
+  },
+  "recursive": {
+    "mean": 0.9166666666666666,
+    "k": 5,
+    "results": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "score": 1.0,
+        "gold": [
+          "habr_931396_rag_obzor",
+          "habr_862870_rag_langchain"
+        ],
+        "retrieved_sources": [
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor",
+          "habr_862870_rag_langchain"
+        ],
+        "question": "В каком году была предложена идея RAG?"
+      },
+      {
+        "id": 2,
+        "type": "синоним",
+        "score": 0.5,
+        "gold": [
+          "habr_1002152_rag_basics",
+          "habr_931396_rag_obzor"
+        ],
+        "retrieved_sources": [
+          "habr_961088_vector_db_obzor",
+          "habr_776478_llm_agenty",
+          "habr_1002152_rag_basics",
+          "habr_862870_rag_langchain",
+          "habr_1000424_rag_production"
+        ],
+        "question": "Как называется нарезка документов на фрагменты для векторного поиска?"
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "score": 1.0,
+        "gold": [
+          "habr_897830_chromadb_deepseek"
+        ],
+        "retrieved_sources": [
+          "habr_897830_chromadb_deepseek",
+          "habr_897830_chromadb_deepseek",
+          "habr_931396_rag_obzor",
+          "habr_768844_llm_bez_haypa",
+          "habr_768844_llm_bez_haypa"
+        ],
+        "question": "Какую модель эмбеддингов используют в статье про ChromaDB и DeepSeek?"
+      },
+      {
+        "id": 4,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_1002152_rag_basics"
+        ],
+        "retrieved_sources": [
+          "habr_1002152_rag_basics",
+          "habr_862870_rag_langchain",
+          "habr_988920_prompt_engineering",
+          "habr_931396_rag_obzor",
+          "habr_1002152_rag_basics"
+        ],
+        "question": "Чем Advanced RAG отличается от Naive RAG по статье «Базовый минимум»?"
+      },
+      {
+        "id": 5,
+        "type": "позитив",
+        "score": 1.0,
+        "gold": [
+          "habr_1002152_rag_basics",
+          "habr_931396_rag_obzor"
+        ],
+        "retrieved_sources": [
+          "habr_841428_chto_takoe_rag",
+          "habr_931396_rag_obzor",
+          "habr_1002152_rag_basics",
+          "habr_931396_rag_obzor",
+          "habr_931396_rag_obzor"
+        ],
+        "question": "Какие преимущества RAG перед дообучением модели?"
+      },
+      {
+        "id": 6,
+        "type": "перефраз",
+        "score": 1.0,
+        "gold": [
+          "habr_945404_tickets_rag"
+        ],
+        "retrieved_sources": [
+          "habr_1000424_rag_production",
+          "habr_768844_llm_bez_haypa",
+          "habr_961088_vector_db_obzor",
+          "habr_945404_tickets_rag",
+          "habr_945404_tickets_rag"
+        ],
+        "question": "Семантический поиск по архиву обращений в техподдержку с косинусным сходством"
+      },
+      {
+        "id": 7,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_961088_vector_db_obzor",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "retrieved_sources": [
+          "habr_768844_llm_bez_haypa",
+          "habr_897830_chromadb_deepseek",
+          "habr_931396_rag_obzor",
+          "habr_961088_vector_db_obzor",
+          "habr_897830_chromadb_deepseek"
+        ],
+        "question": "Какие векторные базы данных упоминаются в обзоре и в туториале Amvera?"
+      },
+      {
+        "id": 8,
+        "type": "прямой",
+        "score": 1.0,
+        "gold": [
+          "habr_988920_prompt_engineering",
+          "habr_776478_llm_agenty"
+        ],
+        "retrieved_sources": [
+          "habr_988920_prompt_engineering",
+          "habr_988920_prompt_engineering",
+          "habr_776478_llm_agenty",
+          "habr_1002152_rag_basics",
+          "habr_988920_prompt_engineering"
+        ],
+        "question": "Что такое Chain-of-Thought в промптинге?"
+      },
+      {
+        "id": 9,
+        "type": "синоним",
+        "score": 0.5,
+        "gold": [
+          "habr_776478_llm_agenty",
+          "habr_768844_llm_bez_haypa"
+        ],
+        "retrieved_sources": [
+          "habr_776478_llm_agenty",
+          "habr_776478_llm_agenty",
+          "habr_776478_llm_agenty",
+          "habr_862870_rag_langchain",
+          "habr_931396_rag_obzor"
+        ],
+        "question": "Почему LLM-агентам нужен внешний модуль памяти для свежих фактов?"
+      },
+      {
+        "id": 10,
+        "type": "точный артикул",
+        "score": 1.0,
+        "gold": [
+          "habr_945404_tickets_rag"
+        ],
+        "retrieved_sources": [
+          "habr_945404_tickets_rag",
+          "habr_945404_tickets_rag",
+          "habr_897830_chromadb_deepseek",
+          "habr_768844_llm_bez_haypa",
+          "habr_768844_llm_bez_haypa"
+        ],
+        "question": "Какую модель SentenceTransformer выбрали для русскоязычных тикетов?"
+      },
+      {
+        "id": 11,
+        "type": "multi-hop",
+        "score": 1.0,
+        "gold": [
+          "habr_1000424_rag_production"
+        ],
+        "retrieved_sources": [
+          "habr_1000424_rag_production",
+          "habr_1000424_rag_production",
+          "habr_961088_vector_db_obzor",
+          "habr_931396_rag_obzor",
+          "habr_961088_vector_db_obzor"
+        ],
+        "question": "Почему в production-кейсе ушли с embedded ChromaDB на Qdrant?"
+      },
+      {
+        "id": 12,
+        "type": "перефраз",
+        "score": 1.0,
+        "gold": [
+          "habr_862870_rag_langchain"
+        ],
+        "retrieved_sources": [
+          "habr_862870_rag_langchain",
+          "habr_862870_rag_langchain",
+          "habr_931396_rag_obzor",
+          "habr_862870_rag_langchain",
+          "habr_862870_rag_langchain"
+        ],
+        "question": "Реализация RAG на Python с LangChain и Weaviate"
+      }
+    ]
+  }
+}

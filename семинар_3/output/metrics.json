@@ -1,0 +1,15 @@
+{
+  "input_reviews": 40,
+  "valid_reviews": 40,
+  "validation_errors": 0,
+  "ghost_quotes": 0,
+  "total_aspect_quotes": 54,
+  "ghost_quote_rate": 0.0,
+  "overall_score": 0.8,
+  "elapsed_sec": 158.3,
+  "cost_usd": 0.0373,
+  "usage": {
+    "prompt_tokens": 28879,
+    "completion_tokens": 26862
+  }
+}

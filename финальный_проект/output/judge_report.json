@@ -1,0 +1,89 @@
+{
+  "verdicts": [
+    {
+      "action": "Исправить зависание переводов и двойное списание",
+      "support": "supported",
+      "evidence": [
+        "[Kirill_Nova/reliability]",
+        "[DoubleCharge/reliability]",
+        "[FinePayStuck/reliability]"
+      ],
+      "comment": "Несколько жалоб на зависание переводов и двойное списание денег, что подтверждает необходимость исправления."
+    },
+    {
+      "action": "Ускорить работу поддержки, исключить шаблонные ответы",
+      "support": "supported",
+      "evidence": [
+        "[Kirill_Nova/support]",
+        "[MariaWait/support]",
+        "[DoubleCharge/support]",
+        "[CardBindFail/support]",
+        "[YuliaDesign/support]"
+      ],
+      "comment": "Пользователи сообщают о длительном ожидании ответа и неэффективных решениях, что требует улучшения качества и скорости поддержки."
+    },
+    {
+      "action": "Оптимизировать производительность приложения (загрузка, батарея)",
+      "support": "supported",
+      "evidence": [
+        "[LenaSupport/performance]",
+        "[BatteryKill/performance]",
+        "[SamsungUser/performance]",
+        "[HistoryCrash/reliability]"
+      ],
+      "comment": "Имеются жалобы на медленную загрузку, высокое потребление батареи и торможение, указывающие на необходимость оптимизации."
+    },
+    {
+      "action": "Уменьшить количество рекламы и навязчивых уведомлений",
+      "support": "supported",
+      "evidence": [
+        "[spam_hater/ads]",
+        "[PushOverload/ads]",
+        "[PopUpAds/ads]",
+        "[InsuranceAds/ads]",
+        "[SpamPush/ads]"
+      ],
+      "comment": "Множество отзывов о навязчивой рекламе и уведомлениях, что требует сокращения их количества."
+    },
+    {
+      "action": "Обновить дизайн с учетом доступности (крупный шрифт, контраст, VoiceOver)",
+      "support": "supported",
+      "evidence": [
+        "[DesignCritic/design]",
+        "[Grandma_N/design]",
+        "[A11y_zero/design]",
+        "[OldUI/design]"
+      ],
+      "comment": "Пользователи отмечают устаревший дизайн, мелкий шрифт и низкую контрастность, что требует обновления с упором на доступность."
+    },
+    {
+      "action": "Пересмотреть комиссионную политику и ценность подписки Nova+",
+      "support": "supported",
+      "evidence": [
+        "[PavelFee/price]",
+        "[PremiumScam/price]"
+      ],
+      "comment": "Отзывы о высокой комиссии и неоправданной подписке Nova+ указывают на необходимость пересмотра тарифов."
+    },
+    {
+      "action": "Обеспечить синхронность обновлений в RuStore и Google Play",
+      "support": "supported",
+      "evidence": [
+        "[RuStoreLag/reliability]"
+      ],
+      "comment": "Зафиксирована проблема с задержкой обновлений в RuStore, что требует синхронизации с Google Play."
+    },
+    {
+      "action": "Добавить недостающие функции: виджет баланса, раздел ЖКХ, улучшить QR-сканер",
+      "support": "supported",
+      "evidence": [
+        "[StableUser/design]",
+        "[PensionZH/reliability]",
+        "[QR_fail/reliability]"
+      ],
+      "comment": "Пользователи сообщают об отсутствии виджета баланса, неработающем разделе ЖКХ и проблемах с QR-сканером, что подтверждает запрос на добавление этих функций."
+    }
+  ],
+  "overall_score": 1.0,
+  "summary": "Все 8 предложенных действий по улучшению приложения находят подтверждение в отзывах пользователей. Наиболее критичные проблемы — надёжность переводов, производительность и реклама. Рекомендуется реализовать все пункты."
+}

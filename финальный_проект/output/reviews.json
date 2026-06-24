@@ -1,0 +1,575 @@
+[
+  {
+    "author": "Kirill_Nova",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-01-14",
+    "text": "Перевод по СБП завис на 18 часов — статус «в обработке», деньги пропали с баланса. Поддержка ответила шаблоном через сутки. На iOS у супруги такого не было.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Перевод по СБП завис на 18 часов — статус «в обработке», деньги пропали с баланса."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Поддержка ответила шаблоном через сутки."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "SofiaBright",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-02-03",
+    "text": "NovaPay — лучший из небольших банков: мгновенные переводы, кэшбэк 5% на кафе реально капает. Интерфейс светлый, родителям объяснила за 10 минут.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "spam_hater",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-01-09",
+    "text": "Реклама микрозаймов на каждом экране! Зашёл узнать баланс — баннер «одобрено 300000». В Тинькофф такого давно нет. Раздражает.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 4,
+        "quote": "Реклама микрозаймов на каждом экране! Зашёл узнать баланс — баннер «одобрено 300000»."
+      }
+    ],
+    "competitor_mentions": [
+      "Тинькофф"
+    ]
+  },
+  {
+    "author": "DesignCritic",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-19",
+    "text": "Дизайн устарел: серые списки, мелкие подписи, нет тёмной темы. Функционал норм — QR, вклады, автоплатежи на месте.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Дизайн устарел: серые списки, мелкие подписи, нет тёмной темы."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "LenaSupport",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-02-27",
+    "text": "Чат поддержки разблокировал карту за 8 минут — вежливо. Минус: главный экран на iPhone 12 грузится 4–5 секунд.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 2,
+        "quote": "главный экран на iPhone 12 грузится 4–5 секунд."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "PavelFee",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-01-21",
+    "text": "Комиссия за перевод в другой банк 1,5% — раньше было бесплатно. В Сбере дешевле. Думаю уйти.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Комиссия за перевод в другой банк 1,5% — раньше было бесплатно."
+      }
+    ],
+    "competitor_mentions": [
+      "Сбер"
+    ]
+  },
+  {
+    "author": "UI_fan",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-02-11",
+    "text": "Новый редизайн с крупными кнопками — наконец-то! Оплата по QR без сбоев. Молодцы разработчики.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "IvanLock",
+    "rating": 1,
+    "platform": "Google Play",
+    "review_date": "2026-03-04",
+    "text": "Face ID перестал работать после обновления, пароль сбрасывается сам. Выходные без доступа к счёту — критично.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Face ID перестал работать после обновления, пароль сбрасывается сам."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "StableUser",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-02-06",
+    "text": "За полгода ни одного вылета. Кэшбэк по категориям удобный. Жаль, нет виджета баланса.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "нет виджета баланса."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "PushOverload",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-01-26",
+    "text": "Push о каждой операции — отключил половину. История платежей с фильтрами — топ.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 2,
+        "quote": "Push о каждой операции"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "MariaWait",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-02-16",
+    "text": "Ждала ответ поддержки 4 дня по спорному списанию. В чате «оператор через 15 минут» — тишина сутками.",
+    "issues": [
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "Ждала ответ поддержки 4 дня по спорному списанию."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "DevOps_k",
+    "rating": 5,
+    "platform": "Google Play",
+    "review_date": "2026-03-01",
+    "text": "Как разработчик: быстрый UI на Pixel 7, API автоплатежей документирован. Лучше чем ВТБ по UX.",
+    "issues": [],
+    "competitor_mentions": [
+      "ВТБ"
+    ]
+  },
+  {
+    "author": "Grandma_N",
+    "rating": 3,
+    "platform": "RuStore",
+    "review_date": "2026-02-02",
+    "text": "Внук настроил — сама не разберусь, кнопок много. Переводы внуку получается делать.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "кнопок много"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "BatteryKill",
+    "rating": 1,
+    "platform": "Google Play",
+    "review_date": "2026-03-08",
+    "text": "После мартовского апдейта жрёт 35% батареи в фоне. Пришлось удалить до фикса.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 5,
+        "quote": "После мартовского апдейта жрёт 35% батареи в фоне."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "YuliaDesign",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-02-22",
+    "text": "Красивая анимация перевода. Поддержка один раз не решила с первого раза, но перезвонили.",
+    "issues": [
+      {
+        "category": "support",
+        "severity": 2,
+        "quote": "Поддержка один раз не решила с первого раза"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "QR_fail",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-01-11",
+    "text": "Сканер QR не фокусируется в супермаркете — очередь за спиной. Перезапуск помогает не всегда.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "Сканер QR не фокусируется в супермаркете"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "FreeTransfer",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-02-28",
+    "text": "Бесплатные переводы по номеру телефона — за это и сижу. Дизайн простой, мне ок.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "PopUpAds",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-14",
+    "text": "Pop-up про инвестиции при каждом входе стал реже, но всё ещё бесит. Функции норм.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "Pop-up про инвестиции при каждом входе"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "DoubleCharge",
+    "rating": 1,
+    "platform": "App Store",
+    "review_date": "2026-03-10",
+    "text": "Двойное списание за подписку. В поддержке «ждите 30 дней». Недопустимо.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Двойное списание за подписку."
+      },
+      {
+        "category": "support",
+        "severity": 4,
+        "quote": "В поддержке «ждите 30 дней»."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "Loyal20",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-02-01",
+    "text": "Два года с NovaPay. Один сбой на Новый год — починили за день. Доверяю.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 2,
+        "quote": "Один сбой на Новый год"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "A11y_zero",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-01-18",
+    "text": "Мелкий шрифт, слабый контраст — людям с плохим зрением тяжело. VoiceOver частично не читает кнопки.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Мелкий шрифт, слабый контраст"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "RuStoreLag",
+    "rating": 3,
+    "platform": "RuStore",
+    "review_date": "2026-02-20",
+    "text": "В RuStore обновление выходит на неделю позже Google Play — сидел на версии с багом входа.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "обновление выходит на неделю позже Google Play — сидел на версии с багом входа."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "CashbackJoy",
+    "rating": 5,
+    "platform": "Google Play",
+    "review_date": "2026-03-02",
+    "text": "Кэшбэк, стикеры, челленджи — весело. Дизайн молодёжный, не как у старых банков.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "PremiumScam",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-02-10",
+    "text": "Подписка Nova+ 349 руб — те же функции, только значок. Обман.",
+    "issues": [
+      {
+        "category": "price",
+        "severity": 3,
+        "quote": "Подписка Nova+ 349 руб — те же функции, только значок."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "SamsungUser",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-01-24",
+    "text": "Стабильно на Galaxy A54. Переводы по телефону — топ. Тормозит на 3G.",
+    "issues": [
+      {
+        "category": "performance",
+        "severity": 2,
+        "quote": "Тормозит на 3G."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "CardBindFail",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-03-06",
+    "text": "Не привязывается карта другого банка — ошибка неделю. Техподдержка бессильна.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Не привязывается карта другого банка — ошибка неделю."
+      },
+      {
+        "category": "support",
+        "severity": 3,
+        "quote": "Техподдержка бессильна."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "BioWin",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-02-24",
+    "text": "Face ID срабатывает с первого раза после фикса. Ушла из Сбера — не жалею.",
+    "issues": [],
+    "competitor_mentions": [
+      "Сбер"
+    ]
+  },
+  {
+    "author": "InsuranceAds",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-05",
+    "text": "Много рекламы страховок при оформлении карты. Сам банк ок, маркетинг давит.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "Много рекламы страховок при оформлении карты."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "FinePayStuck",
+    "rating": 2,
+    "platform": "App Store",
+    "review_date": "2026-03-07",
+    "text": "Зависло при оплате штрафа — деньги списались, статус «обработка» 3 часа. Стресс.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Зависло при оплате штрафа — деньги списались, статус «обработка» 3 часа."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "ValueUser",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-01-22",
+    "text": "Хорошее соотношение цены и качества. Комиссии низкие, но не нулевые. Русский интерфейс без кривых переводов.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "RuStoreFan",
+    "rating": 5,
+    "platform": "RuStore",
+    "review_date": "2026-03-01",
+    "text": "Наконец полноценная версия в RuStore без Google. Работает отлично на Honor.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "ApplePayPain",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-02-13",
+    "text": "Карта в Google Pay добавилась с пятой попытки. У конкурентов за раз.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 3,
+        "quote": "Карта в Google Pay добавилась с пятой попытки."
+      }
+    ],
+    "competitor_mentions": [
+      "конкурентов"
+    ]
+  },
+  {
+    "author": "SpamPush",
+    "rating": 3,
+    "platform": "App Store",
+    "review_date": "2026-02-04",
+    "text": "Push про акции каждый день — спам. Отключила уведомления полностью.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 3,
+        "quote": "Push про акции каждый день — спам."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "InvestPro",
+    "rating": 4,
+    "platform": "Google Play",
+    "review_date": "2026-03-09",
+    "text": "Раздел инвестиций понятный, графики норм. Хотелось бы больше аналитики. Поддержка по брокеру компетентная.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Хотелось бы больше аналитики."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "PensionZH",
+    "rating": 1,
+    "platform": "RuStore",
+    "review_date": "2026-01-16",
+    "text": "Не могу оплатить ЖКХ — раздел «Коммунальные» пустой после февральского обновления. Критично для пенсионеров.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 5,
+        "quote": "Не могу оплатить ЖКХ — раздел «Коммунальные» пустой после февральского обновления."
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "WatchPay",
+    "rating": 5,
+    "platform": "App Store",
+    "review_date": "2026-02-12",
+    "text": "Apple Watch — переводы с запястья работают. Удобно в метро.",
+    "issues": [],
+    "competitor_mentions": []
+  },
+  {
+    "author": "OldUI",
+    "rating": 2,
+    "platform": "Google Play",
+    "review_date": "2026-03-03",
+    "text": "Дизайн как в 2017: никакого glassmorphism, серые списки. Конкуренты обновились, NovaPay — нет. Функционал спасает.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 3,
+        "quote": "Дизайн как в 2017: никакого glassmorphism, серые списки."
+      }
+    ],
+    "competitor_mentions": [
+      "Конкуренты"
+    ]
+  },
+  {
+    "author": "Neutral38",
+    "rating": 3,
+    "platform": "Google Play",
+    "review_date": "2026-02-08",
+    "text": "Средне. Переводы ок, дизайн терпимый, реклама есть но не критично.",
+    "issues": [
+      {
+        "category": "ads",
+        "severity": 2,
+        "quote": "реклама есть"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "SavingsOK",
+    "rating": 4,
+    "platform": "App Store",
+    "review_date": "2026-01-10",
+    "text": "Накопительный счёт с прозрачной ставкой. Нет семейного доступа — минус.",
+    "issues": [
+      {
+        "category": "design",
+        "severity": 2,
+        "quote": "Нет семейного доступа"
+      }
+    ],
+    "competitor_mentions": []
+  },
+  {
+    "author": "HistoryCrash",
+    "rating": 2,
+    "platform": "RuStore",
+    "review_date": "2026-03-11",
+    "text": "Вылетает при открытии истории за 2025 год. Баг стабильный, жду патч.",
+    "issues": [
+      {
+        "category": "reliability",
+        "severity": 4,
+        "quote": "Вылетает при открытии истории за 2025 год."
+      }
+    ],
+    "competitor_mentions": []
+  }
+]

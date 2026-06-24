@@ -289,3 +289,80 @@ def calculate(expression: str) -> dict:
         return {"expression": expression, "result": round(val, 6)}
     except Exception as e:
         return {"error": f"{type(e).__name__}: {e}"}
+
+
+# ===========================================================================
+# 5. Сравнение метрик между двумя периодами
+# ===========================================================================
+
+
+def _parse_period(period: str) -> tuple[str, int, int]:
+    """YYYY-MM или YYYY-MM-DD -> (iso_date, year, month)."""
+    period = period.strip()
+    if len(period) == 7 and period[4] == "-":
+        year, month = int(period[:4]), int(period[5:7])
+        from calendar import monthrange
+
+        last_day = monthrange(year, month)[1]
+        return f"{year}-{month:02d}-{last_day:02d}", year, month
+    d = _parse_date(period)
+    return d.isoformat(), d.year, d.month
+
+
+def _metric_value(metric: str, period: str) -> tuple[dict, float | None, str]:
+    """Получить сырое obs и числовое value для метрики на период."""
+    iso_date, year, month = _parse_period(period)
+    m = metric.lower()
+
+    if m == "key_rate":
+        obs = get_key_rate(on_date=iso_date)
+        return obs, obs.get("rate"), obs.get("source", "")
+    if m == "fx_usd":
+        obs = get_fx_rate(currency="USD", on_date=iso_date)
+        return obs, obs.get("rate"), obs.get("source", "")
+    if m == "fx_eur":
+        obs = get_fx_rate(currency="EUR", on_date=iso_date)
+        return obs, obs.get("rate"), obs.get("source", "")
+    if m == "fx_cny":
+        obs = get_fx_rate(currency="CNY", on_date=iso_date)
+        return obs, obs.get("rate"), obs.get("source", "")
+    if m == "cpi":
+        obs = get_inflation(year, month)
+        return obs, obs.get("cpi_yoy"), obs.get("source", "")
+    if m == "unemployment":
+        obs = get_unemployment(year, month)
+        return obs, obs.get("unemployment"), obs.get("source", "")
+
+    return {"error": f"неизвестная метрика: {metric}"}, None, ""
+
+
+def compare_periods(metric: str, period_a: str, period_b: str) -> dict:
+    """
+    Сравнить значение метрики в двух периодах.
+    metric: key_rate | fx_USD | fx_EUR | fx_CNY | cpi | unemployment
+    period: YYYY-MM или YYYY-MM-DD
+    """
+    allowed = {"key_rate", "fx_usd", "fx_eur", "fx_cny", "cpi", "unemployment"}
+    if metric.lower() not in allowed:
+        return {"error": f"metric должен быть одним из {sorted(allowed)}"}
+
+    obs_a, val_a, src_a = _metric_value(metric, period_a)
+    if "error" in obs_a or val_a is None:
+        return {"error": f"период A ({period_a}): {obs_a.get('error', 'нет значения')}"}
+
+    obs_b, val_b, src_b = _metric_value(metric, period_b)
+    if "error" in obs_b or val_b is None:
+        return {"error": f"период B ({period_b}): {obs_b.get('error', 'нет значения')}"}
+
+    a_date = obs_a.get("date") or f"{obs_a.get('year', '')}-{obs_a.get('month', ''):02d}"
+    b_date = obs_b.get("date") or f"{obs_b.get('year', '')}-{obs_b.get('month', ''):02d}"
+    source = src_a if src_a == src_b else f"{src_a}+{src_b}"
+
+    return {
+        "metric": metric,
+        "a": {"date": a_date, "value": val_a},
+        "b": {"date": b_date, "value": val_b},
+        "delta": round(val_b - val_a, 6),
+        "ratio": round(val_b / val_a, 6) if val_a else None,
+        "source": source,
+    }
